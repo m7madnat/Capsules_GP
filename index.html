@@ -1,1 +1,35 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capsules</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="search">
+    <h1>Students</h1>
+    <input type="text" id="input" class="search-item" placeholder=" Search" />
+    <select name="category" id="category" class="search-item">
+      <option value="everything">Everything</option>
+      <option value="id">Id</option>
+      <option value="firstName">First Name</option>
+      <option value="lastName">Last Name</option>
+      <option value="capsule">Capsule</option>
+      <option value="age">Age</option>
+      <option value="city">City</option>
+      <option value="gender">Gender</option>
+      <option value="hobby">Hobby</option>
+    </select>
+    <button id="restart" onclick="window.location.reload()">Reset</button>
+  </div>
+  <div id="append" class="row header">
+  </div>
+  <div class="container"></div>
+</body>
+
+</html>
